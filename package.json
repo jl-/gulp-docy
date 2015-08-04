@@ -1,29 +1,28 @@
 {
-  "name": "gulp-doggy",
+  "name": "gulp-docy",
   "version": "0.0.1",
-  "description": "New gulp-jsdoc modified by myself",
+  "description": "gulp-jsdoc with customizable build-in ink-docstrap, credits are theirs",
   "keywords": [
-    "gulpplugin",
     "jsdoc",
-    "javascript",
+    "ink-docstrap",
     "gulp-jsdoc"
   ],
-  "homepage": "https://github.com/kuangwk/gulp-doggy",
+  "homepage": "https://github.com/jl-/gulp-docy",
   "bugs": {
-    "url": "https://github.com/kuangwk/gulp-doggy/issues",
-    "email": "kuangweike@gmail.com"
+    "url": "https://github.com/jl-/gulp-docy/issues",
+    "email": "i.dragonxx@gmail.com"
   },
   "license": "MIT",
   "author": {
-    "name": "Kevin Kuang",
-    "email": "kuangweike@gmail.com ",
-    "url": "https://github.com/kuangwk"
+    "name": "jl",
+    "email": "i.dragonxx@gmail.com ",
+    "url": "https://github.com/jl-"
   },
   "contributors": [],
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kuangwk/gulp-doggy.git"
+    "url": "https://github.com/jl-/gulp-docy.git"
   },
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
@@ -63,24 +62,10 @@
     "npm": ">=1.0.0"
   },
   "private": false,
-  "_id": "gulp-doggy@0.0.1",
-  "_shasum": "12e1f1acf0b25a9a5f06e2cb18418eea21f4afdc",
-  "_from": "gulp-doggy@*",
-  "_npmVersion": "1.4.14",
-  "_npmUser": {
-    "name": "kevinkuang",
-    "email": "kuangweike@gmail.com"
-  },
   "maintainers": [
     {
-      "name": "kevinkuang",
-      "email": "kuangweike@gmail.com"
+      "name": "jl-",
+      "email": "i.dragonxx@gmail.com"
     }
-  ],
-  "dist": {
-    "shasum": "12e1f1acf0b25a9a5f06e2cb18418eea21f4afdc",
-    "tarball": "http://registry.npmjs.org/gulp-doggy/-/gulp-doggy-0.0.1.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/gulp-doggy/-/gulp-doggy-0.0.1.tgz"
+  ]
 }
